@@ -250,7 +250,7 @@ if (typeof(Storage) !== "undefined") {
   // var rightGuesses = guessed.length - wrongGuesses;
   var rightGuesses = word.length;
   let score = Math.floor((rightGuesses / (wrongGuesses + rightGuesses)) * 100) || 100;
-  alert('Congratulations! Score: ' + score + '%');
+  alert('Félicitation vous avez gagné (^^) !!!!!!!! Score: ' + score + '%');
   stats.streak++;
   stats.scores.push(score);
   setScore();
